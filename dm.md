@@ -1,6 +1,7 @@
 # Direct Messaging Module
 
 Richard T. Carback III
+
 Benjamin Wenger
 
 ## Introduction
