@@ -33,6 +33,11 @@ exchanged less frequently than every message.
 * [Diffie–Hellmen](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange): Length is 3072 bits. Discrete log-based component of key negotiation.
 * [SIDH](https://sike.org/files/SIDH-spec.pdf): Length of public key is 3024 bits. Quantum resistant component of key negotiation.
 
+NOTE: We have since switched to
+[CTIDH](https://git.xx.network/elixxir/client/-/merge_requests/390)
+after a [vulnerability](https://eprint.iacr.org/2022/1038) was found
+for SIDH. Users interested in PQ messaging should use this branch.
+
 ## Auth Request Response Protocol
 
 The Auth Request Response Protocol is similar a two way handshake
